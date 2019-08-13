@@ -1,5 +1,18 @@
-<ul>
-  {% for bird in boyds %}
-  <li>{{bird.bird_id}}</li>
-  {% endfor %}
-</ul>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Data Playground</title>
+  {% load static %}
+  <link rel="stylesheet" type="text/css" href="{% static 'data_playground/style.css' %}">
+</head>
+
+<body>
+  <ul>
+    {% for bird in boyds %}
+    <li class="bird-data">{{bird.bird_id}}, {{bird.bird_location}}, {{bird.sex}}, {{bird.body_length}}</li>
+    {% endfor %}
+  </ul>
+</body>
+
+</html>
