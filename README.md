@@ -1,4 +1,4 @@
-#THIS IS A CURRENT WORK IN PROGRESS
+# THIS IS A CURRENT WORK IN PROGRESS
 
 ## A Project that Integrates React and D3.js with Django for some client
 ## facing data visualization
