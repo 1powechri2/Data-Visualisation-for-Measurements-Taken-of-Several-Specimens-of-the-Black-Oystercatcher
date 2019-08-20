@@ -2,19 +2,13 @@
 <html>
 
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Data Playground</title>
   {% load static %}
   <link rel="stylesheet" type="text/css" href="{% static 'data_playground/style.css' %}">
 </head>
-
 <body>
-  <p>{{df.shape}}</p>
-  <data>{{data}}</data>
-  <ul>
-    {% for bird in boyds %}
-    <li class="bird-data">{{bird.bird_id}}, {{bird.bird_location}}, {{bird.sex}}, {{bird.body_length}}</li>
-    {% endfor %}
-  </ul>
-</body>
 
+</body>
 </html>
