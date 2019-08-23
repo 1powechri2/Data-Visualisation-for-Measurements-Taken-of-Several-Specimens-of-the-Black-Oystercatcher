@@ -1,0 +1,34 @@
+{
+  "name": "fun_with_django",
+  "version": "1.0.0",
+  "description": "## A Project that Integrates React and D3.js with Django for some client ## facing data visualization",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js --progress --colors --mode development",
+    "watch": "webpack --config webpack.config.js --watch --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1powechri2/Data-Visualisation-for-Measurements-Taken-of-Several-Specimens-of-the-Black-Oystercatcher.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1powechri2/Data-Visualisation-for-Measurements-Taken-of-Several-Specimens-of-the-Black-Oystercatcher/issues"
+  },
+  "homepage": "https://github.com/1powechri2/Data-Visualisation-for-Measurements-Taken-of-Several-Specimens-of-the-Black-Oystercatcher#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.39.2",
+    "webpack-bundle-tracker": "^0.4.2-beta",
+    "webpack-cli": "^3.3.7"
+  },
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}

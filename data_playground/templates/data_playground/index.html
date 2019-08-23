@@ -1,14 +1,15 @@
+{% load render_bundle from webpack_loader %}
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Data Playground</title>
-  {% load static %}
-  <link rel="stylesheet" type="text/css" href="{% static 'data_playground/style.css' %}">
-</head>
-<body>
-
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Data Playground</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'data_playground/style.css' %}">
+  </head>
+  <body>
+    <div id="react"></div>
+    {% render_bundle 'main' %}
+  </body>
 </html>
