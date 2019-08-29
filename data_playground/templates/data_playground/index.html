@@ -9,7 +9,13 @@
     <link rel="stylesheet" type="text/css" href="{% static 'data_playground/style.css' %}">
   </head>
   <body>
+    {{props}}
     <div id="react"></div>
+    <script>
+      window.stuff = {{ props | safe }};
+      console.log(window.stuff)
+      window.react_mount = document.getElementById('react');
+    </script>
     {% render_bundle 'main' %}
   </body>
 </html>
